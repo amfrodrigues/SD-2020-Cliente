@@ -1,4 +1,4 @@
-package main;
+package cliente;
 
 public class ResourceInfo {
     // variables
