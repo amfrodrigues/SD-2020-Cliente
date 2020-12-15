@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Cliente">
+    <output-path>$PROJECT_DIR$/out/artifacts/Cliente</output-path>
+    <root id="archive" name="Cliente.jar">
+      <element id="module-output" name="Project" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Reducer/out/artifacts/Reducer/Reducer.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Master/out/artifacts/Master/Master.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Mapper/out/artifacts/Mapper/Mapper.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Storage/out/artifacts/StorageJar/StorageJar.jar" />
+    </root>
+  </artifact>
+</component>
