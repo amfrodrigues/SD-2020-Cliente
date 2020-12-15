@@ -7,6 +7,7 @@ import java.util.Objects;
 
 /**
  * Information about query params.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#queryString">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

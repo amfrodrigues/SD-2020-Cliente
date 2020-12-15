@@ -9,6 +9,7 @@ import java.util.Objects;
 
 /**
  * Information about a request coming from browser cache.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#cache">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -69,6 +70,7 @@ public class HarCache {
 
     /**
      * Information about a request coming from browser cache.
+     *
      * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#cache">specification</a>
      */
     @JsonInclude(JsonInclude.Include.NON_NULL)

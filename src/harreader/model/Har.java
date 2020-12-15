@@ -7,6 +7,7 @@ import java.util.Objects;
 
 /**
  * Main HTTP Archive Class.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/">speicification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

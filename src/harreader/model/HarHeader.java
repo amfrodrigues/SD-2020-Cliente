@@ -10,6 +10,7 @@ import java.util.Objects;
 
 /**
  * Information about a header used in request and/or response.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#headers">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

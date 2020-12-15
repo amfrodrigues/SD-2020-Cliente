@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import harreader.jackson.DefaultMapperFactory;
 import harreader.jackson.MapperFactory;
 import harreader.model.Har;
-import harreader.jackson.MapperFactory;
 
 import java.io.File;
 import java.io.IOException;

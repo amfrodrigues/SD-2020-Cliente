@@ -193,8 +193,8 @@ public class HarResponse {
         g.writeArrayFieldStart("headers");
         Iterator var2 = this.headers.iterator();
 
-        while(var2.hasNext()) {
-            HarHeader header = (HarHeader)var2.next();
+        while (var2.hasNext()) {
+            HarHeader header = (HarHeader) var2.next();
             header.writeHar(g);
         }
         g.writeEndArray();

@@ -10,6 +10,7 @@ import java.util.Objects;
 
 /**
  * Information about the application/browser used for creating HAR.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#creator">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

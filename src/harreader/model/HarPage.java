@@ -1,18 +1,18 @@
 package harreader.model;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.*;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonGenerator;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 /**
  * Information about an exported page.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#pages">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -118,7 +118,7 @@ public class HarPage {
             g.writeStringField("comment", this.comment);
         }
 
-       // this.customFields.writeHar(g);
+        // this.customFields.writeHar(g);
         g.writeEndObject();
     }
 

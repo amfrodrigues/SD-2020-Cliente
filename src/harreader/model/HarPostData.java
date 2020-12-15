@@ -9,6 +9,7 @@ import java.util.Objects;
 
 /**
  * Information about POST data.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#postData">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

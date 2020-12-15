@@ -1,10 +1,6 @@
 package harreader.model;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.*;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonGenerator;
 
@@ -16,6 +12,7 @@ import java.util.Objects;
 
 /**
  * Information about a single HTTP request.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#entries">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -211,7 +208,7 @@ public class HarEntry {
             g.writeStringField("pageref", this.pageref);
         }
 
-       // g.writeStringField("startedDateTime", String.valueOf(this.startedDateTime));
+        // g.writeStringField("startedDateTime", String.valueOf(this.startedDateTime));
         g.writeNumberField("time", this.time);
         g.writeStringField("_resourceType", this._resourceType);
         g.writeStringField("_priority", this._priority);
@@ -221,7 +218,7 @@ public class HarEntry {
             this.cache.writeHar(g);
         }*/
 
-       // this.timings.writeHar(g);
+        // this.timings.writeHar(g);
         if (this.serverIPAddress != null) {
             g.writeStringField("serverIPAddress", this.serverIPAddress);
         }

@@ -7,6 +7,7 @@ import java.util.Objects;
 
 /**
  * Information about the response's content.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#content">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

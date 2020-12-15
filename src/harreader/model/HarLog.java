@@ -13,6 +13,7 @@ import java.util.Objects;
 
 /**
  * Root object of exported data.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#log">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -126,7 +127,7 @@ public class HarLog {
     public void writeHar(JsonGenerator g) throws JsonGenerationException, IOException {
         g.writeObjectFieldStart("log");
         g.writeStringField("version", this.version);
-       // this.creator.writeHar(g);
+        // this.creator.writeHar(g);
         if (this.browser != null) {
             this.browser.writeHar(g);
         }
@@ -144,8 +145,8 @@ public class HarLog {
         g.writeArrayFieldStart("entries");
         Iterator var2 = this.entries.iterator();
 
-        while(var2.hasNext()) {
-            HarEntry entry = (HarEntry)var2.next();
+        while (var2.hasNext()) {
+            HarEntry entry = (HarEntry) var2.next();
             entry.writeHar(g);
         }
 

@@ -44,16 +44,16 @@ public enum HttpStatus {
         this.code = code;
     }
 
-    public int getCode() {
-        return code;
-    }
-
     public static HttpStatus byCode(int code) {
         HttpStatus status = CODE_MAP.get(code);
         if (status == null) {
             return UNKNOWN_HTTP_STATUS;
         }
         return status;
+    }
+
+    public int getCode() {
+        return code;
     }
 
 }

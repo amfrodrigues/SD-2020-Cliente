@@ -1,6 +1,7 @@
 package main;
 
 //package harreader imports
+
 import harreader.HarReader;
 import harreader.HarReaderException;
 import harreader.model.Har;
@@ -13,13 +14,8 @@ import java.util.LinkedHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class DataLoader {
-    //private variables
-    private LinkedHashMap<String ,ArrayList<ResourceInfo>> HarMap;
-
     //constructor
-    public DataLoader() {
-        this.HarMap = new LinkedHashMap();
-    }
+    public DataLoader() {}
 
     //functions
     public void FillResourcesMap(String path, String fileName, LinkedHashMap<String, ArrayList<ResourceInfo>> timeHarMap) throws HarReaderException {
@@ -28,7 +24,7 @@ public class DataLoader {
         try {
             HarReader harReader = new HarReader();
             File file = new File(path + fileName + ".har");
-            while (file.exists()){
+            while (file.exists()) {
                 Har otherHar = harReader.readFromFile(file);
                 for (HarEntry otherEntry : otherHar.getLog().getEntries()) {
                     if (!otherEntry.getResponse().getHeaders().get(0).getValue().contains("no-cache")) {
@@ -58,7 +54,7 @@ public class DataLoader {
 
                     }
                 }
-                file = new File(path + fileName + "_" + ++fileCount +".har");
+                file = new File(path + fileName + "_" + ++fileCount + ".har");
             }
         } catch (Exception ex) {
             // e.printStackTrace();

@@ -9,6 +9,7 @@ import java.util.Objects;
 
 /**
  * Information about a cookie used in request and/or response.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#cookies">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

@@ -8,14 +8,11 @@ import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonGenerator;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Information about a performed request.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#request">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -178,23 +175,23 @@ public class HarRequest {
 
     public void writeHar(JsonGenerator g) throws JsonGenerationException, IOException {
         g.writeObjectFieldStart("request");
-       // g.writeStringField("method", String.valueOf(this.method));
+        // g.writeStringField("method", String.valueOf(this.method));
         g.writeStringField("url", this.url);
-       // g.writeStringField("httpVersion", this.httpVersion);
-       // this.cookies.writeHar(g);
-       // this.headers.writeHar(g);
-       // this.queryString.writeHar(g);
+        // g.writeStringField("httpVersion", this.httpVersion);
+        // this.cookies.writeHar(g);
+        // this.headers.writeHar(g);
+        // this.queryString.writeHar(g);
        /* if (this.postData != null) {
             this.postData.writeHar(g);
         }*/
 
-       // g.writeNumberField("headersSize", this.headersSize);
-       // g.writeNumberField("bodySize", this.bodySize);
+        // g.writeNumberField("headersSize", this.headersSize);
+        // g.writeNumberField("bodySize", this.bodySize);
         if (this.comment != null) {
             g.writeStringField("comment", this.comment);
         }
 
-       // this.customFields.writeHar(g);
+        // this.customFields.writeHar(g);
         g.writeEndObject();
     }
 

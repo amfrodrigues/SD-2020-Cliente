@@ -10,6 +10,7 @@ import java.util.Objects;
 
 /**
  * Information about events occurring during page load.
+ *
  * @see <a href="http://www.softwareishard.com/blog/har-12-spec/#pageTimings">specification</a>
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -77,7 +78,7 @@ public class HarPageTiming {
             g.writeStringField("comment", this.comment);
         }
 
-       // this.customFields.writeHar(g);
+        // this.customFields.writeHar(g);
         g.writeEndObject();
     }
 
