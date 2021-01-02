@@ -1,5 +1,3 @@
-package cliente;
-
 public class ResourceInfo {
     // variables
     public String resourceType;

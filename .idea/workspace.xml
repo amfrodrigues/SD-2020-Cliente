@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Cliente" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9af71a0-a4f3-4633-8ba2-57445dcfde8f" name="Default Changelist" comment="" />
+    <list default="true" id="e9af71a0-a4f3-4633-8ba2-57445dcfde8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15-Dec-20_21_54_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Cliente/Cliente.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Cliente/Cliente.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/ClienteMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/HarReaderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/MapperServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/MasterServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/ReducerServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/ResourceInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/StorageServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/ClienteMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/HarReaderException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/MapperServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/MasterServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/ReducerServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/ResourceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cliente/StorageServiceInterface.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lhx0mTx4hlitNd3rKvROOVyo4F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,10 +53,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Reducer/out/artifacts/Reducer" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Storage/out/artifacts/StorageJar/StorageJar.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ClienteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClienteMain" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClienteMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,11 +100,31 @@
       <option name="project" value="LOCAL" />
       <updated>1608064420046</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sprint 1 review">
+      <created>1608069321786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608069321786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sprint 1 review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint 1 review" />
+    <MESSAGE value="sprint 1 review" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 1 review" />
   </component>
 </project>
