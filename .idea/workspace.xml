@@ -7,25 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9af71a0-a4f3-4633-8ba2-57445dcfde8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15-Dec-20_21_54_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Cliente/Cliente.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Cliente/Cliente.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/ClienteMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/HarReaderException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/MapperServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/MasterServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/ReducerServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/ResourceInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/cliente/StorageServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/ClienteMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/HarReaderException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/MapperServiceInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/MasterServiceInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/ReducerServiceInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/ResourceInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/StorageServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ClienteMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ClienteMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/HarReaderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ResourceInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/StorageServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/StorageServiceInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClienteMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClienteMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClienteServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClienteServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HarReaderException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReducerServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReducerServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResourceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StorageServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StorageServiceInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +46,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Storage/out/artifacts/StorageJar/StorageJar.jar" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608069321786</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added send files from cliente to server">
+      <created>1609594763867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609594763867</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sprint 1 review" />
     <MESSAGE value="sprint 1 review" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 1 review" />
+    <MESSAGE value="added send files from cliente to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="added send files from cliente to server" />
   </component>
 </project>
