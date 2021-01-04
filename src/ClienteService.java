@@ -29,6 +29,7 @@ public class ClienteService extends UnicastRemoteObject implements ClienteServic
                 mylen = in.read(mydata);
             }
         } catch (Exception e) {
+
             e.printStackTrace();
         }
         return data_send;

@@ -53,6 +53,7 @@ public class ClienteMain {
                 System.out.println("CLIENTE: "+"File sent failed");
             }
         } catch (Exception e) {
+
             e.printStackTrace();
         }
         try {
