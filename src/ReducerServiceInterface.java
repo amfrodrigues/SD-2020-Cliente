@@ -1,4 +1,4 @@
 import java.rmi.Remote;
 
-public interface ReducerServiceInterface  extends Remote {
+public interface ReducerServiceInterface extends Remote {
 }

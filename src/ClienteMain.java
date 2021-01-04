@@ -1,4 +1,3 @@
-
 import java.rmi.Naming;
 
 public class ClienteMain {
@@ -10,14 +9,14 @@ public class ClienteMain {
     private static final int reducer2rmi_id = 2027;
 
 
-    private static final String storage_rmi_address = "rmi://localhost:"+storage_rmi_id+"/storageservice";
+    private static final String storage_rmi_address = "rmi://localhost:" + storage_rmi_id + "/storageservice";
 
-    private static final String filename_to_send = "www_nytimes_com_1.har";
+    private static final String filename_to_send = "www_nytimes_com";
 
 
     public static void main(String[] args) throws InterruptedException {
-        Thread t = (new Thread(){
-            public void run(){
+        Thread t = (new Thread() {
+            public void run() {
                 StorageMain.main(new String[]{storage_rmi_id});
 
                /* MasterMain.main(new String[master_rmi_id]);
@@ -31,23 +30,36 @@ public class ClienteMain {
         Thread.sleep(1000);
 
         StorageServiceInterface storage_rmi = null;
-        try{
+        try {
             storage_rmi = (StorageServiceInterface) Naming.lookup(storage_rmi_address);
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        try{
+        try {
             ClienteServiceInterface cliente_rmi = new ClienteService("resources");
-            cliente_rmi.sendFile(storage_rmi,filename_to_send);
-            System.out.println("File Sent: "+filename_to_send);
-        }catch(Exception e){
+            if (cliente_rmi.sendFile(storage_rmi, filename_to_send)) {
+                System.out.println("CLIENTE: "+"File Sent: " + filename_to_send);
+            } else {
+                System.out.println("CLIENTE: "+"File sent failed");
+            }
+            if (cliente_rmi.sendFile(storage_rmi, filename_to_send + "_1")) {
+                System.out.println("CLIENTE: "+"File Sent: " + filename_to_send);
+            } else {
+                System.out.println("CLIENTE: "+"File sent failed");
+            }
+            if (cliente_rmi.sendFile(storage_rmi, filename_to_send + "_2")) {
+                System.out.println("CLIENTE: "+"File Sent: " + filename_to_send);
+            } else {
+                System.out.println("CLIENTE: "+"File sent failed");
+            }
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
-
-
+        try {
+            storage_rmi.LoadFiles(filename_to_send);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
     }
