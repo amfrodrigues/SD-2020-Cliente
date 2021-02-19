@@ -14,16 +14,17 @@ public class ClienteMain {
 
     private static final boolean flg_send_files_to_storage = false;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
+        /* Thread to launch storage and master on the clienteMain
         Thread t = (new Thread() {
             public void run() {
                 StorageMain.main(new String[]{storage_rmi_id});
-                MasterMain.main(new String[]{master_rmi_id});
+                 MasterMain.main(new String[]{master_rmi_id});
 
             }
         });
         t.start();
-        Thread.sleep(1000);
+        Thread.sleep(1000); */
 
         StorageServiceInterface storage_rmi = null;
         try {
@@ -50,11 +51,12 @@ public class ClienteMain {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        MasterServiceInterface master_rmi = null;
+        MasterServiceInterface master_rmi;
         try{
             master_rmi = (MasterServiceInterface) Naming.lookup(master_rmi_address);
-            LinkedList<CombinationProcessingData> combinations =master_rmi.task_combinations(3);
-            for(CombinationProcessingData comb : combinations){
+            System.out.println("CLIENTE -> Started Task ... now waiting");
+            LinkedList<ProcessCombinationModel> combinations =master_rmi.task_combinations(3);
+            for(ProcessCombinationModel comb : combinations){
                 System.out.println("CLIENTE -> Combination :"+comb.combination+" with precentage"+comb.percentage);
             }
             System.out.println("CLIENTE: Combinations Statistics Size = "+storage_rmi.getcombinationsStatisticsize());

@@ -7,18 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9af71a0-a4f3-4633-8ba2-57445dcfde8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ProcessCombinationModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Cliente/Cliente.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Cliente/Cliente.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ClienteMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteMain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ClienteMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/MapperServiceInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project/MasterServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/MasterServiceInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ReducerServiceInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project/StorageServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/StorageServiceInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClienteMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClienteMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapperServiceInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MasterServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MasterServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReducerServiceInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StorageServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StorageServiceInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.5104167" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609756349719</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="functional and non function tasks">
+      <created>1613748919695</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613748919695</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +171,7 @@
     <MESSAGE value="final commit for sprint 2 &#10;added save file received from cliente and then load to memory" />
     <MESSAGE value="final commit for sprint 2 &#10;added send files to storage and call load function on storage" />
     <MESSAGE value="final commit sprint 2 &#10;added send file to storage and after send order to load" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit sprint 2 &#10;added send file to storage and after send order to load" />
+    <MESSAGE value="functional and non function tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="functional and non function tasks" />
   </component>
 </project>
